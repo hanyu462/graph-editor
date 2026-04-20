@@ -44,6 +44,23 @@ Preview the production build locally:
 npm run preview
 ```
 
+## GitHub Pages deployment
+
+This repository is configured to deploy the frontend to GitHub Pages with GitHub Actions.
+Every push to `main` triggers a production build from `frontend/` and publishes the generated static files.
+
+Deployed URL:
+
+```text
+https://hanyu462.github.io/graph-editor/
+```
+
+Notes:
+
+- GitHub Pages serves the built static files from `frontend/dist/`
+- End users only need a browser to use the deployed app
+- Node.js is only needed by contributors or CI when building the app
+
 ## Dependency notes
 
 This repository does not commit `node_modules`.
