@@ -49,6 +49,11 @@ npm run preview
 This repository is configured to deploy the frontend to GitHub Pages with GitHub Actions.
 Every push to `main` triggers a production build from `frontend/` and publishes the generated static files.
 
+One-time repository setting:
+
+1. Open `Settings -> Pages`
+2. Set **Build and deployment** source to **GitHub Actions**
+
 Deployed URL:
 
 ```text
